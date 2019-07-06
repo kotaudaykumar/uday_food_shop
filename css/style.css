@@ -1,0 +1,3759 @@
+*
+{
+margin:0px;
+padding:0px;	
+}
+
+
+body
+{
+width:100%;
+margin:0px auto;
+font-family:"Times New Roman", Times, serif !important;	
+}
+
+header {
+    float: left;
+    width: 100%;
+    background:#963;
+    height: 157px;
+}
+
+header h5 {
+    width: 90%;
+    clear: both;
+    color: #FFF;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 15px auto 0px auto;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    border-bottom: solid 1px #FFFFFF;
+}
+
+header .social {
+    float: left;
+    margin-left: 73px;
+    margin-top: 10px;
+}
+
+header .social ul
+{
+float:left;	
+}
+
+header .social ul li
+{
+float:left;
+list-style:none;	
+}
+
+header .social ul li a img
+{
+float:left;
+text-decoration:none;
+margin-right:4px;
+border-radius:4px;	
+}
+
+header .login {
+    width: 29%;
+    float: right;
+    margin-right: 68px;
+    margin-top: 10px;
+}
+
+header .login ul
+{
+float:left;	
+}
+
+header .login ul li
+{
+float:left;
+list-style:none;
+margin-right:7px;	
+}
+
+header .login ul li a {
+    float: left;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+header .login ul li a .logins {
+    float: left;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+header .login ul li a .loginsr {
+    float: right;
+    margin-top: 5px;
+    margin-left:8px;
+}
+
+header .main {
+    float: left;
+    width: 100%;
+    height: 51px;
+    background: #e24b19;
+}
+
+header .main .matter {
+    float: left;
+    width: 90%;
+    margin-left: 70px;
+}
+
+header .main .matter h2 a {
+    float: left;
+    color: #fff;
+    margin-top: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+header .main .matter .menu {
+    float: right;
+    margin-top: 6px;
+}
+
+
+header .main .matter .menu ul
+{
+float:left;	
+}
+
+header .main .matter .menu ul li
+{
+float:left;
+list-style:none;	
+}
+
+header .main .matter .menu .catlogs
+{
+position:relative;
+height:37px;	
+}
+
+
+header .main .matter .menu .catlogs .catlog_list {
+    clear: both;
+    display: none;
+    overflow: hidden;
+    width: 548%;
+    left: -105px;
+    top: 37px;
+    margin: 0px auto !important;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    z-index: 999;
+	border-top:solid 1px #000000;
+       background: #e24b19;
+        position: absolute;
+}
+
+
+header .main .matter .menu .catlogs .catlog_list .appet {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20%;
+	//background:#09C;
+    
+}
+
+header .main .matter .menu .catlogs .catlog_list .appet .appmain {
+    float: left;
+	    margin-left:-3px;
+}
+
+header .main .matter .menu .catlogs .catlog_list .appet .appmain a
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+text-decoration:none;
+border-bottom:solid 1px #333333;
+font-size:16px;
+color:#000;
+font-weight:bold;	
+}
+
+header .main .matter .menu .catlogs .catlog_list .appet li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+header .main .matter .menu .catlogs .catlog_list .appet li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 12px;
+	font-weight:bold;
+	padding-top:10px;
+    text-decoration: none;
+}
+
+header .main .matter .menu .catlogs .catlog_list .deserts
+{
+float:left;
+width:20%;
+margin-right:10px;
+//background:#09C;	
+}
+
+header .main .matter .menu .catlogs .catlog_list .deserts .desmain {
+    float: left;
+    margin-left: 12px;
+}
+
+header .main .matter .menu .catlogs .catlog_list .deserts .desmain a {
+    float: left;
+    border-bottom: solid 1px #333333;
+    color: #000;
+    margin-left: 11px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header .main .matter .menu .catlogs .catlog_list .deserts li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+header .main .matter .menu .catlogs .catlog_list .deserts li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-left: 47px;
+    text-decoration: none;
+}
+
+header .main .matter .menu .catlogs .catlog_list .fruits {
+    float: left;
+    width: 32%;
+	//background:#09C;
+    margin-right: 10px;
+}
+
+header .main .matter .menu .catlogs .catlog_list .fruits .frumain {
+    float: left;
+    margin-left: -9px;
+}
+
+header .main .matter .menu .catlogs .catlog_list .fruits .frumain a
+{
+float:left;
+color:#000;
+text-decoration:none;
+border-bottom:solid 1px #333333;
+font-size:16px;
+font-weight:bold;	
+}
+
+header .main .matter .menu .catlogs .catlog_list .fruits li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+header .main .matter .menu .catlogs .catlog_list .fruits li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+	font-weight:bold;
+    font-size: 10px;
+	padding-top:10px;
+    margin-left:65px;
+    text-decoration: none;
+}
+
+
+header .main .matter .menu .catlogs .catlog_list .meats
+{
+float:left;
+width:20%;
+//background:#09C;
+}
+
+header .main .matter .menu .catlogs .catlog_list .meats .meatmain {
+    float: left;
+    margin-left:5px;
+}
+
+header .main .matter .menu .catlogs .catlog_list .meats .meatmain a {
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin-left: 16px;
+    border-bottom: solid 1px #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .main .matter .menu .catlogs .catlog_list .meats li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+header .main .matter .menu .catlogs .catlog_list .meats li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size:10px;
+    margin-left:22px;
+	padding-top:10px;
+	font-weight:bold;
+    text-decoration: none;
+}
+
+
+header .main .matter .menu .catlogs:hover .catlog_list
+{
+clear:both;
+display:block;
+overflow:hidden;	
+display:block;
+margin-top:22px;	
+}
+
+
+header .main .matter .menu ul li a
+{
+float:left;
+text-decoration:none;
+color:#FFF;
+font-size:14px;
+margin-right:24px;	
+}
+
+.sub_page {
+      background: #999999;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 1px;
+    float: left;
+}
+
+.sub_page .page_name {
+    float: left;
+    margin-left: 70px;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+.section_one {
+     float:left;
+    width: 100%;
+	background:#ebebeb;
+    
+    
+    
+}
+
+.section_one .bx-wrapper {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 90%;
+    height: 400px;
+    margin: 40px auto 0px auto;
+}
+
+
+
+.section_one .bx-wrapper .bx-viewport
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 390px !important;	
+}
+
+.section_two
+{
+    width: 100%;
+    float:left;
+    background:#ebebeb;
+    padding-top: 45px;
+    padding-bottom: 50px;	
+}
+
+.section_two h3
+{
+clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color:#F00;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-weight:500;
+}
+
+.section_two .div_one {
+    float: left;
+    width: 404px;
+    background: #F0F;
+    margin: 0px 30px 0px 36px;
+    border: solid 3px #fff;
+    box-shadow: 0px 0px 7px #000;
+}
+
+.section_two .div_two
+{
+float: left;
+    width: 404px;
+    background: #F0F;
+    margin:0px 30px 0px auto;
+    border: solid 3px #fff;
+    box-shadow: 0px 0px 7px #000;
+}
+
+.section_two .div_three
+{
+float: left;
+    width: 404px;
+    background: #F0F;
+    margin:0px auto 0px auto;
+    border: solid 3px #fff;
+    box-shadow: 0px 0px 7px #000;
+}
+
+.section_two .freeshipping {
+    float: left;
+    width: 407px;
+    margin-left: 35px;
+    background: #903;
+    margin-top: 40px;
+    padding-top: 22px;
+    padding-bottom: 15px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_two .freeshipping span {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.section_two .return {
+    float: left;
+    width: 407px;
+    color: red;
+    padding-top: 22px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 40px;
+    background:#903;
+}
+
+.section_two .return span
+{
+clear:both;
+display:block;
+color:#FFF;
+padding-top:10px;
+padding-bottom:10px;
+font-weight:bold;
+overflow:hidden;
+}
+
+.section_two .cod {
+    float: right;
+    width: 407px;
+    padding-top: 22px;
+    padding-bottom: 15px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 38px;
+    margin-top: 40px;
+    background:#903;
+}
+
+.section_two .cod span
+{
+clear:both;
+display:block;
+color:#FFF;
+padding-top:10px;
+padding-bottom:10px;
+font-weight:bold;
+overflow:hidden;
+}
+
+.section_three {
+    width: 100%;
+    float:left;
+        padding-bottom:200px;
+    background:url(../images/SFAH_Unit_02301_R20180727_9818_4mofar.0.jpeg) left top repeat-x;
+}
+
+
+.section_three .order_now {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #FFF;
+    font-size: 80px;
+    margin-top: 70px;
+}
+
+.section_three .order_now span {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 50px;
+    opacity: 0.5;
+    margin-top: 50px;
+}
+
+.section_three .shopbut {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 121px;
+    margin: 130px auto 0px auto;
+}
+
+.section_three .shopbut a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    background: #F00;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.section_three .shopbut a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    background:#930;
+}
+
+.section_three .shopbut .shopnow {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin: 60px auto 0px auto;
+    border: none;
+    outline:none;
+    color: #FFF;
+	cursor:pointer;
+    background: #F30;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 28px;
+}
+
+.section_three a .shopnow:hover
+{
+background:#C90;	
+}
+
+.featured_products {
+    float:left;
+	width: 100%;
+    margin: 0px auto;
+    background:#ebebeb;
+    padding-bottom: 30px;
+}
+
+.featured_products .featured_heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 28px;
+    color: #F00;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.featured_products .allfeatured {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 1146px;
+    margin: 0px auto;
+}
+
+.featured_products .allfeatured .featured_one
+{
+float:left;
+margin-right: 15px;	
+}
+
+.featured_products .allfeatured .featured_one img
+{
+border-radius:8px;	
+}
+
+/*.featured_products .allfeatured .featured_one p a
+{
+text-decoration:none;
+}*/
+
+.featured_products .allfeatured .featured_one .itemname a
+{
+text-align:center;
+clear:both;
+display:block;
+color:#000;
+text-transform:uppercase;
+padding-top:10px;
+text-decoration:none;
+overflow:hidden;
+text-decoration:none;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_one .costs
+{
+clear:both;
+display:block;
+color:#F00;
+cursor:default;
+overflow:hidden;
+text-align:center;	
+}
+
+.featured_products .allfeatured .featured_two
+{
+float:left;
+margin-right: 15px;	
+}
+
+.featured_products .allfeatured .featured_two img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_two .itemname a
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+padding-top:10px;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_two .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+.featured_products .allfeatured .featured_three
+{
+float:left;
+margin-right: 15px;	
+}
+
+.featured_products .allfeatured .featured_three img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_three .itemname a
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#000;
+padding-top:10px;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_three .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+
+.featured_products .allfeatured .featured_four
+{
+float:left;	
+}
+
+.featured_products .allfeatured .featured_four img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_four .itemname a
+{
+text-align:center;
+clear:both;
+padding-top:10px;
+display:block;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_four .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00	
+}
+
+.featured_products .allfeatured .featured_five
+{
+float:left;
+margin-right:15px;	
+}
+
+.featured_products .allfeatured .featured_five img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_five .itemname a
+{
+text-align:center;
+clear:both;
+display:block;
+padding-top:10px;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_five .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+.featured_products .allfeatured .featured_six
+{
+float:left;
+margin-right:15px;	
+}
+
+.featured_products .allfeatured .featured_six img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_six .itemname a
+{
+text-align:center;
+clear:both;
+padding-top:10px;
+display:block;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_six .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+
+.featured_products .allfeatured .featured_seven
+{
+float:left;
+margin-right:15px;	
+}
+
+.featured_products .allfeatured .featured_seven img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_seven .itemname a
+{
+text-align:center;
+clear:both;
+padding-top:10px;
+display:block;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;	
+font-weight:bold;
+}
+
+.featured_products .allfeatured .featured_seven .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+.featured_products .allfeatured .featured_eight
+{
+float:left;
+}
+
+.featured_products .allfeatured .featured_eight img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_eight .itemname a
+{
+text-align:center;
+clear:both;
+display:block;
+padding-top:10px;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_eight .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+.featured_products .allfeatured .featured_nine
+{
+float:left;
+margin-right:15px;	
+}
+
+.featured_products .allfeatured .featured_nine img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_nine .itemname a
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+padding-top:10px;
+color:#000;
+text-decoration:none;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_nine .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+text-transform:uppercase;
+color:#F00;	
+}
+
+.featured_products .allfeatured .featured_ten
+{
+float:left;
+margin-right: 15px;	
+}
+
+.featured_products .allfeatured .featured_ten img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_ten .itemname a
+{
+text-align:center;
+clear:both;
+display:block;
+padding-top:10px;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_ten .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+
+.featured_products .allfeatured .featured_eleven
+{
+float:left;
+margin-right:15px;	
+}
+
+.featured_products .allfeatured .featured_eleven img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_eleven .itemname a
+{
+text-align:center;
+clear:both;
+padding-top:10px;
+display:block;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+overflow:hidden;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_eleven .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+
+.featured_products .allfeatured .featured_tweleve
+{
+float:left;
+}
+
+.featured_products .allfeatured .featured_tweleve img
+{
+border-radius:8px;	
+}
+
+
+
+.featured_products .allfeatured .featured_tweleve .itemname a
+{
+text-align:center;
+clear:both;
+padding-top:10px;
+display:block;
+overflow:hidden;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;	
+}
+
+.featured_products .allfeatured .featured_tweleve .costs
+{
+text-align:center;
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;	
+}
+
+.section_four {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px auto;
+    background: url(../images/img-00a.jpg) left top no-repeat;
+	padding-bottom:150px;
+}
+
+.section_four .lunches_heading {
+    text-align: center;
+    color: red;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 90px;
+	margin-bottom:50px;
+}
+
+.section_four .lunch_matter {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #0F0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.section_four .lunch_content {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+.section_four .shopbuters {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin: 60px auto 0px auto;
+    width: 125px;
+}
+
+.section_four .shopbuters a
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#000;
+background:#F00;
+text-align:center;
+padding:15px;
+font-size:18px;
+font-weight:bold;	
+text-decoration:none;
+}
+
+.section_four .shopbuters a:hover
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#fff;
+background:#909;
+text-align:center;
+}
+
+
+.section_five
+{
+width:100%;
+clear:both;
+display:block;
+overflow:hidden;
+margin:0px auto;
+padding-bottom:30px;
+background:#ebebeb;	
+}
+
+.section_five .services_heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+	text-decoration:underline;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+
+.section_five .allservices
+{
+clear:both;
+display:block;
+overflow:hidden;	
+width:90%;
+margin:50px auto 0px auto;
+}
+
+.section_five .service_one {
+    float: left;
+    width: 50%;
+	padding-top:10px;
+	padding-bottom:10px;
+    margin-right: 50px;
+	margin-bottom:40px;
+    background:#ebebeb;
+    font-weight: bold;
+    color:#F00;
+	text-transform:uppercase;
+	text-align:center;
+    font-size: 20px;
+	border:solid 1px #330000;
+border-radius:8px;
+box-shadow:2px 2px 3px #000000;
+}
+
+.section_five .service_one span
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#000;
+padding-top:10px;
+font-weight:normal;
+text-transform:none;
+font-size:18px;	
+}
+
+.section_five .service_two {
+    float: right;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background:#ebebeb;
+    font-weight: bold;
+    text-align: center;
+	margin-bottom:40px;
+    font-size: 20px;
+	color:#F00;
+	border:solid 1px #330000;
+border-radius:8px;
+box-shadow: 2px 2px 3px #000000;
+}
+
+.section_five .service_two span
+{
+clear:both;
+display:block;
+overflow:hidden;
+padding-top:10px;
+color:#000;
+text-transform:none;
+font-weight:normal;
+font-size:18px;	
+}
+
+.section_five .service_three
+{
+float:left;
+width:50%;
+background:#ebebeb;
+margin-right:50px;
+margin-bottom:40px;
+color:red;
+padding-top:10px;
+padding-bottom:10px;
+font-size:20px;
+text-transform:uppercase;
+text-align:center;
+font-weight:bold;
+border:solid 1px #330000;
+border-radius:8px;
+box-shadow: 2px 2px 3px #000000;	
+}
+
+.section_five .service_three span
+{
+clear:both;
+display:block;
+padding-top:10px;
+text-transform:none;
+overflow:hidden;
+color:#000;
+font-size:18px;
+font-weight:normal;	
+}
+
+.section_five .service_four
+{
+float:right;
+width:50%;
+background:#ebebeb;
+margin-bottom:40px;
+color:red;
+padding-top:10px;
+padding-bottom:10px;
+text-transform:uppercase;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+border:solid 1px #330000;
+border-radius:8px;
+box-shadow: 2px 2px 3px #000000;	
+}
+
+.section_five .service_four span
+{
+clear:both;
+padding-top:10px;
+display:block;
+overflow:hidden;
+color:#000;
+text-transform:none;
+font-size:18px;
+font-weight:normal;	
+}
+
+
+.blog
+{
+width:100%;
+margin:0px auto;
+clear:both;
+display:block;
+overflow:hidden;
+background:#99C;
+padding-bottom:30px;	
+}
+
+.blog .blog_heading
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+color:red;
+text-decoration:underline;
+margin-top:40px;
+font-size:28px;
+font-weight:500;	
+}
+
+
+.blog .commentr {
+    clear: both;
+    width: 80%;
+    margin: 30px auto 0px auto;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 40px;
+    background: #966;
+	margin-bottom:40px;
+}
+
+.blog .commentr .leave {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #F00;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+
+.blog .commentr .name {
+    float: left;
+    margin-right: 270px;
+    margin-left: 10px;
+	margin-top:10px;
+	margin-bottom:40px;
+
+}
+
+.blog .commentr .name label {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.blog .commentr .name .namer {
+    float: left;
+    width: 220%;
+	border:none;
+	outline:none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+.blog .commentr .email
+{
+float:left;
+margin-top:10px;
+margin-left:10px;	
+}
+
+.blog .commentr .email label{
+clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.blog .commentr .email .emailr
+{
+   float: left;
+    width: 220%;
+	border:none;
+	outline:none;
+	padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+
+}
+
+.blog .commentr .message
+{
+clear:both;
+display:block;
+overflow:hidden;
+margin-left:10px;	
+}
+.blog .commentr .message label{
+clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;	
+}
+
+.blog .commentr .message .messager {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 55%;
+	border:none;
+	outline:none;
+    padding-top: 8px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+}
+
+.blog .commentr .postr {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    background: orange;
+    color: #fff;
+	margin-left:10px;
+    font-weight: 500;
+}
+
+
+.map
+{
+width:100%;
+margin:0px auto;
+clear:both;
+display:block;
+overflow:hidden;
+background:#ebebeb;
+padding-bottom:60px;	
+}
+
+.map .map_heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+	text-decoration:underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.map .maps {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 500px;
+    margin: 0px auto;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    color: #FFF;
+    background: #190802;
+    padding-bottom: 70px;
+}
+
+footer .total_footer
+{
+clear:both;
+display:block;
+overflow:hidden;	
+width:98%;
+margin:0px auto;
+margin-top:70px;
+//background:#0FF;	
+}
+
+footer .total_footer .information_block {
+    float: left;
+    width: 32%;
+    margin-left: 24px;
+    //background: #C6F;
+}
+
+footer .total_footer .information_block .information_heading
+{
+text-align: center;
+text-decoration:underline;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;	
+}
+
+
+footer .total_footer .information_block ul
+{	
+clear:both;
+display:block;
+overflow:hidden;
+}
+
+footer .total_footer .information_block ul li
+{	
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;
+}
+
+footer .total_footer .information_block ul li a
+{	
+clear:both;
+display:block;
+overflow:hidden;
+text-decoration:none;
+text-align:center;
+color:#564a45;
+}
+
+footer .total_footer .information_block ul li a:hover
+{
+color:#FFF;	
+}
+
+footer .total_footer .catalog_block
+{
+float:left;
+width:32%;
+text-align:center;
+//background:#699;	
+}
+
+footer .total_footer .catalog_heading
+{
+text-align:center;
+text-decoration:underline;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;	
+}
+
+footer .total_footer .catalog_block ul
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+footer .total_footer .catalog_block ul li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+footer .total_footer .catalog_block ul li a
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-decoration:none;
+text-align:center;
+color:#564a45;	
+}
+
+footer .total_footer .catalog_block ul li a:hover
+{
+color:#FFF;	
+}
+
+footer .total_footer .myaccount_block
+{
+float:left;
+width:32%;
+//background:#9F3;	
+}
+
+footer .total_footer .account_heading
+{
+text-align: center;
+text-decoration:underline;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;	
+}
+
+footer .total_footer .myaccount_block ul
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+footer .total_footer .myaccount_block ul li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+footer .total_footer .myaccount_block ul li a
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-decoration:none;
+text-align:center;
+color:#564a45;	
+}
+
+footer .total_footer .myaccount_block ul li a:hover
+{
+color:#FFF;	
+}
+
+																	/*starters*/
+																	
+.starters_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.starters_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.starters_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #e2e2e2;
+}
+
+.starters_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.starters_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.starters_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.starters_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color:#000;
+	border:solid 1px #000;
+    font-size: 12px;
+    padding: 7px 5px 7px 5px;
+    background:#e2e2e2;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.starters_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#933;
+}
+
+.starters_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.starters_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.starters_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.starters_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.starters_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+	color:#000;
+    margin-bottom: 12px;
+    background:none;
+	border:solid 1px #000;
+}
+
+.starters_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#933;
+}
+
+
+.starters_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background:#e2e2e2;
+	padding-bottom:74px;
+}
+
+.starters_section .products_starter .item_one {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.starters_section .products_starter .item_one .potato_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.starters_section .products_starter .item_one p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	color:#000;
+	text-decoration:none;
+}
+
+.starters_section .products_starter .item_one p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+	text-decoration:none;
+
+    
+}
+
+
+.starters_section .products_starter .item_two {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.starters_section .products_starter .item_two .omlet_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.starters_section .products_starter .item_two p a {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.starters_section .products_starter .item_two p a span  {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+	text-decoration:none;
+    
+}
+
+
+.starters_section .products_starter .item_three {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.starters_section .products_starter .item_three .corn_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.starters_section .products_starter .item_three p a {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.starters_section .products_starter .item_three p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+	text-decoration:none;
+    
+}
+
+.starters_section .products_starter .item_four {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.starters_section .products_starter .item_four .chicken_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.starters_section .products_starter .item_four p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.starters_section .products_starter .item_four p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.starters_section .products_starter .item_five {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.starters_section .products_starter .item_five .new_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.starters_section .products_starter .item_five p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.starters_section .products_starter .item_five p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.starters_section .products_starter .item_six {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.starters_section .products_starter .item_six .finger_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+border-radius:10px;
+margin-top:1px;	
+}
+
+.starters_section .products_starter .item_six p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.starters_section .products_starter .item_six p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+	text-decoration:none;
+    
+}
+
+
+																
+																/*samosa_section*/
+											
+
+
+
+.catalog_list_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.catalog_list_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.catalog_list_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background:#e2e2e2;
+}
+
+.catalog_list_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    background:#fff;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.catalog_list_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+    padding-bottom: 33px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.catalog_list_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.catalog_list_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color:#000;
+	font-size:12px;
+    padding: 5px;
+    background:#e2e2e2;
+    margin-bottom: 10px;
+    text-decoration: none;
+	border:solid 1px #000;
+}
+
+.catalog_list_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#933;
+}
+
+.catalog_list_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.catalog_list_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:#fff;
+	color:#000;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.catalog_list_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.catalog_list_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.catalog_list_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#000;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background:#e2e2e2;
+	border:solid 1px #000;
+}
+
+.catalog_list_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#933;
+}
+
+
+.catalog_list_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #e2e2e2;
+    padding-bottom:53px;
+}
+
+
+.catalog_list_section .products_starter .catalog_list_main {
+    float: left;
+    width: 40%;
+    
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.catalog_list_section .products_starter .catalog_list_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.catalog_list_section .products_starter .catalog_list_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.catalog_list_section .products_starter .catalog_list_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.catalog_list_section .products_starter .catalog_list_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.catalog_list_section .products_starter .catalog_list_content {
+    float: left;
+	width:30%;
+    
+    margin-left: 20px;
+    
+	margin-top: 65px;
+	
+}
+
+.catalog_list_section .products_starter .catalog_list_content .catalog_list_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.catalog_list_section .products_starter .catalog_list_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	
+}
+
+.catalog_list_section .products_starter .catalog_list_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+   
+}
+
+.catalog_list_section .products_starter .catalog_list_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background:#F00;
+    font-weight:bold;
+}
+
+.catalog_list_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #000;
+    margin-top: 15px;
+}
+
+.catalog_list_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #000;
+}
+
+.catalog_list_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.catalog_list_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;
+font-weight:500;	
+}
+
+.catalog_list_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+.catalog_list_section .products_starter .prevpage {
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    /* margin-right: 38px; */
+}
+
+
+.catalog_list_section .products_starter .prevpage a
+{
+float:left;
+color:#000;
+text-decoration:none;	
+}
+
+.catalog_list_section .products_starter .prevpage a .previous {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.catalog_list_section .products_starter .prevpage a:hover
+{
+float:right;
+color:#F00;	
+}
+
+
+.catalogr_items_section .products_starter .prevpage {
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    /* margin-right: 38px; */
+}
+
+
+.catalogr_items_section .products_starter .prevpage a
+{
+float:left;
+color:#000;
+text-decoration:none;	
+}
+
+.catalogr_items_section .products_starter .prevpage a .previous {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.catalogr_items_section .products_starter .prevpage a:hover
+{
+float:right;
+color:#F00;	
+}
+
+
+.catalog_list_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.catalog_list_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.catalog_list_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.catalog_list_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#F00;	
+}
+
+
+
+
+
+																/*dessert*/
+																
+																
+.dessert_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.dessert_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.dessert_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #e2e2e2;
+}
+
+.dessert_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.dessert_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.dessert_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.dessert_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color:#000;
+	font-size:12px;
+    padding: 5px;
+    background:#e2e2e2;
+    margin-bottom: 10px;
+    text-decoration: none;
+	border:solid 1px #000;
+}
+
+.dessert_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#933;
+}
+
+.dessert_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.dessert_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:#fff;
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+}
+
+
+.dessert_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.dessert_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.dessert_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+	color:#000;
+	border:solid 1px #000;
+    margin-bottom: 10px;
+    background:#e2e2e2;
+}
+
+.dessert_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#933;
+}
+
+
+.dessert_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #e2e2e2;
+    padding-bottom: 36px;
+}
+
+.dessert_section .products_starter .item_one {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.dessert_section .products_starter .item_one .potato_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.dessert_section .products_starter .item_one p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.dessert_section .products_starter .item_one p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+
+.dessert_section .products_starter .item_two {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.dessert_section .products_starter .item_two .omlet_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.dessert_section .products_starter .item_two p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.dessert_section .products_starter .item_two p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+
+.dessert_section .products_starter .item_three {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.dessert_section .products_starter .item_three .corn_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.dessert_section .products_starter .item_three p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.dessert_section .products_starter .item_three p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.dessert_section .products_starter .item_four {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.dessert_section .products_starter .item_four .chicken_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.dessert_section .products_starter .item_four p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.dessert_section .products_starter .item_four p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.dessert_section .products_starter .item_five {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.dessert_section .products_starter .item_five .new_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+margin-top:1px;
+border-radius:10px;	
+}
+
+.dessert_section .products_starter .item_five p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.dessert_section .products_starter .item_five p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.dessert_section .products_starter .item_six {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: #fff;
+	border-radius:10px;
+}
+
+.dessert_section .products_starter .item_six .finger_fig
+{
+clear:both;
+display:block;
+overflow:hidden;	
+text-align:center;
+border-radius:10px;
+margin-top:1px;	
+}
+
+.dessert_section .products_starter .item_six p a{
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: -10px;
+	font-weight:500;
+	text-decoration:none;
+	color:#000;
+}
+
+.dessert_section .products_starter .item_six p a span {
+    clear: both;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+
+	
+															
+															
+
+
+
+
+
+
+.catalogr_items_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.catalogr_items_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.catalogr_items_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 16px;
+    padding-bottom:51px;
+    background: #e2e2e2;
+}
+
+.catalogr_items_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.catalogr_items_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.catalogr_items_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.catalogr_items_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color:#000;
+	font-size:12px;
+    padding: 5px;
+    background:#e2e2e2;
+	border:solid 1px #000;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.catalogr_items_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#933;
+}
+
+.catalogr_items_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.catalogr_items_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+	color:#000;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:#fff;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.catalogr_items_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.catalogr_items_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.catalogr_items_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#000;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+	border:solid 1px #000;
+    background:#e2e2e2;
+}
+
+.catalogr_items_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#933;
+}
+
+
+.catalogr_items_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #e2e2e2;
+    padding-bottom:51px;
+}
+
+
+.catalogr_items_section .products_starter .catalogr_items_main {
+    float: left;
+    width: 40%;
+        margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.catalogr_items_section .products_starter .catalogr_items_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.catalogr_items_section .products_starter .catalogr_items_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.catalogr_items_section .products_starter .catalogr_items_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.catalogr_items_section .products_starter .catalogr_items_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.catalogr_items_section .products_starter .catalogr_items_content {
+    float: left;
+	width:30%;
+    
+    margin-left: 20px;
+    
+	margin-top: 65px;
+	
+}
+
+.catalogr_items_section .products_starter .catalogr_items_content .catalogr_items_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.catalogr_items_section .products_starter .catalogr_items_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	
+}
+
+.catalogr_items_section .products_starter .catalogr_items_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    
+}
+
+.catalogr_items_section .products_starter .catalogr_items_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background:#F00;
+    font-weight:bold;
+}
+
+.catalogr_items_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #000;
+    margin-top: 15px;
+}
+
+.catalogr_items_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #000;
+}
+
+.catalogr_items_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.catalogr_items_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#F00;
+font-weight:500;	
+}
+
+.catalogr_items_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.catalogr_items_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.catalogr_items_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.catalogr_items_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.catalogr_items_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#F00;	
+}
+
+
+
+
+
+
+
+																/*main_blog*/
+																
+.main_blogs
+{
+clear:both;
+display:block;
+overflow:hidden;	
+width:100%;
+margin:0px auto;
+background:#ebebeb;	
+}
+
+.main_blogs .bloger_heading
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+font-size:24px;
+font-weight:500;
+color:#F00;
+margin-top:20px;
+text-decoration:underline;	
+}
+
+.main_blogs .blogr_content
+{
+width:80%;
+margin:0px auto;
+clear:both;
+display:block;
+overflow:hidden;
+background:#ebebeb;	
+}
+
+.main_blogs .blogr_content .headingr
+{
+float:left;
+font-size:18px;
+color:#000;	
+}
+
+.main_blogs .blogr_content .filled
+{
+clear:both;
+display:block;
+overflow:hidden;
+font-size:14px;
+width:85%;
+padding-bottom:15px;
+border-bottom:solid 1px #000;	
+}
+
+.main_blogs .blogr_content .sandwich_cream {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 23px;
+}
+
+.main_blogs .blogr_content .sandwich_details {
+    clear: both;
+    width: 85%;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.main_blogs .blogr_content .sandwich_details span {
+    clear: both;
+    width:100%;
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    margin-top: 24px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #000;
+}
+
+.main_blogs .commentr {
+    clear: both;
+    width: 80%;
+    margin: 30px auto 0px auto;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 40px;
+    background: #966;
+	margin-bottom:40px;
+}
+
+.main_blogs .commentr .leave {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #F00;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+
+.main_blogs .commentr .name {
+    float: left;
+    margin-right: 270px;
+    margin-left: 10px;
+	margin-top:10px;
+	margin-bottom:40px;
+
+}
+
+.main_blogs .commentr .name label {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.main_blogs .commentr .name .namer {
+    float: left;
+    width: 220%;
+	border:none;
+	outline:none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+.main_blogs .commentr .email
+{
+float:left;
+margin-top:10px;
+margin-left:10px;	
+}
+
+.main_blogs .commentr .email label{
+clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.main_blogs .commentr .email .emailr
+{
+   float: left;
+    width: 220%;
+	border:none;
+	outline:none;
+	padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+
+}
+
+.main_blogs .commentr .message
+{
+clear:both;
+display:block;
+overflow:hidden;
+margin-left:10px;	
+}
+.main_blogs .commentr .message label{
+clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;	
+}
+
+.main_blogs .commentr .message .messager {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 55%;
+	border:none;
+	outline:none;
+    padding-top: 8px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+}
+
+.main_blogs .commentr .postr {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    background: orange;
+    color: #fff;
+	margin-left:10px;
+    font-weight: 500;
+}
+
+
+															/*about_us*/
+															
+															
+														
+																
+.main_about
+{
+clear:both;
+display:block;
+overflow:hidden;	
+width:100%;
+margin:0px auto;
+background:#ebebeb;	
+}
+
+.main_about .about_heading
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+font-size:24px;
+font-weight:500;
+color:#F00;
+margin-top:20px;
+text-decoration:underline;	
+}
+
+.main_about .about_content
+{
+width:80%;
+margin:0px auto;
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.main_about .about_content .headingr {
+    font-size:24px;
+    color: #000;
+    clear: both;
+    display: block;
+	font-weight:bold;
+	margin-top:30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main_about .about_content .uday_logo {
+    float: left;
+    margin-left:12%;
+    margin-top: 60px;
+	background:#000;
+}
+
+.main_about .about_content .uday_qr {
+    float: right;
+    margin-right: 12%;
+    margin-top: 60px;
+    background: #000;
+}
+
+.main_about .uday_design
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#000;
+margin-top:40px;
+width:100%;
+padding-bottom: 40px;
+	
+}
+
+.main_about .uday_design p
+{
+width:80%;
+font-size:18px;
+margin:0px auto;
+background:#ebebeb;
+}
+
+															/*contact_us*/
+															
+															
+															
+.main_contact
+{
+clear:both;
+display:block;
+overflow:hidden;	
+width:100%;
+margin:0px auto;
+background:#ebebeb;	
+}
+
+.main_contact .contact_heading
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+font-size:24px;
+font-weight:500;
+color:#F00;
+margin-top:20px;
+text-decoration:underline;	
+}
+
+.main_contact .contact_content {
+    width: 80%;
+    margin: 0px auto;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    background: #9F3;
+    margin-bottom: 35px;
+}
+
+.main_contact .contact_content .uday_map {
+    float: left;
+    width: 100%;
+}
+
+
+
+.main_contact .contact_content .uday_map .mape {
+    float: left;
+	width:100%;
+    
+}
+
+
+
+
+.main_contact .contactr {
+    clear: both;
+    width: 80%;
+    margin: 30px auto 0px auto;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 40px;
+    background: #966;
+	margin-bottom:40px;
+}
+
+.main_contact .contactr .leave {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #F00;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+
+.main_contact .contactr .name {
+    float: left;
+    margin-right: 146px;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main_contact .contactr .name label {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.main_contact .contactr .name .namer {
+    float: left;
+    width: 150%;
+	border:none;
+	outline:none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+.main_contact .contactr .email {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 140px;
+}
+
+.main_contact .contactr .email label{
+clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.main_contact .contactr .email .emailr
+{
+   float: left;
+    width: 150%;
+	border:none;
+	outline:none;
+	padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+
+}
+
+.main_contact .contactr .mobile
+{
+float:left;
+margin-top:10px;
+margin-left:10px;	
+}
+
+.main_contact .contactr .mobile label{
+clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.main_contact .contactr .mobile .numberr
+{
+   float: left;
+    width: 150%;
+	border:none;
+	outline:none;
+	padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+
+}
+
+.main_contact .contactr .message
+{
+clear:both;
+display:block;
+overflow:hidden;
+margin-left:10px;	
+}
+.main_contact .contactr .message label{
+clear: both;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-bottom: 10px;	
+}
+
+.main_contact .contactr .message .messager {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 55%;
+	border:none;
+	outline:none;
+    padding-top: 8px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+}
+
+.main_contact .contactr .sendr {
+    float: left;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background: orange;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.main_contact .contactr .cancelr {
+    float: left;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background: orange;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+
+.main_page_items_details
+{
+width:100%;
+margin:0px auto;
+clear:both;
+display:block;
+overflow:hidden;
+background:#303;	
+}
+
+.main_page_items_details .heading
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+font-weight:500;
+font-size:24px;
+color:red;
+text-decoration:underline;
+margin-top:20px;
+}
+
+.main_page_items_details .content {
+    width: 90%;
+    margin: 0px auto 50px auto;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    background: #6FF;
+    padding-bottom: 40px;
+}
+
+.main_page_items_details .content .main_figure
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.main_page_items_details .content .main_figure img
+{
+clear:both;
+display:block;
+overflow:hidden;
+margin:20px auto 0px auto;	
+}
+
+.main_page_items_details .content .figure_details
+{
+clear:both;
+display:block;
+overflow:hidden;
+background:#9FC;
+color:#000;
+font-size:18px;
+text-align:left;
+margin-top:30px;	
+}
+
+.main_page_items_details .content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main_page_items_details .content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    width: 15%;
+    margin: 0px auto;
+        background: #906;
+    
+}
+
+.main_page_items_details .content .cart a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.main_page_items_details .content .cart a:hover
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-decoration:none;
+color:#fff;
+background:#90C;
+}

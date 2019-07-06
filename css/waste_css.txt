@@ -1,0 +1,9839 @@
+
+	
+
+														/*jello,dome,german,lava,mini,baked*/
+														
+														
+
+
+/*.cookies_items_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.cookies_items_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.cookies_items_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 51px;
+    background: #960;
+}
+
+.cookies_items_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cookies_items_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.cookies_items_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.cookies_items_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.cookies_items_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.cookies_items_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.cookies_items_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.cookies_items_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.cookies_items_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.cookies_items_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.cookies_items_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.cookies_items_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.cookies_items_section .products_starter .cookies_items_main {
+    float: left;
+    width: 40%;
+        margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.cookies_items_section .products_starter .cookies_items_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.cookies_items_section .products_starter .cookies_items_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.cookies_items_section .products_starter .cookies_items_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.cookies_items_section .products_starter .cookies_items_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.cookies_items_section .products_starter .cookies_items_content {
+    float: left;
+	width:30%;
+    
+    margin-left: 20px;
+    
+	margin-top: 65px;
+	
+}
+
+.cookies_items_section .products_starter .cookies_items_content .cookies_items_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.cookies_items_section .products_starter .cookies_items_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	
+}
+
+.cookies_items_section .products_starter .cookies_items_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    
+}
+
+.cookies_items_section .products_starter .cookies_items_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.cookies_items_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    
+	margin-top: 15px;
+}
+
+.cookies_items_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.cookies_items_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.cookies_items_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.cookies_items_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.cookies_items_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.cookies_items_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.cookies_items_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.cookies_items_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}*/
+
+
+
+																	/*omlet*/
+																	
+																	
+.omlet_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.omlet_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.omlet_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.omlet_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.omlet_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.omlet_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.omlet_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.omlet_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.omlet_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.omlet_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.omlet_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.omlet_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.omlet_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.omlet_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.omlet_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.omlet_section .products_starter .omlet_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.omlet_section .products_starter .omlet_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.omlet_section .products_starter .omlet_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.omlet_section .products_starter .omlet_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.omlet_section .products_starter .omlet_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.omlet_section .products_starter .omlet_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.omlet_section .products_starter .omlet_content .omlet_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.omlet_section .products_starter .omlet_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.omlet_section .products_starter .omlet_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.omlet_section .products_starter .omlet_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.omlet_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.omlet_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.omlet_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.omlet_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.omlet_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.omlet_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.omlet_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.omlet_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.omlet_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+
+																/*corn with lemon*/
+																
+.corn_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.corn_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.corn_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.corn_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.corn_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.corn_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.corn_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.corn_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.corn_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.corn_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.corn_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.corn_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.corn_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.corn_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.corn_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.corn_section .products_starter .corn_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.corn_section .products_starter .corn_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.corn_section .products_starter .corn_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.corn_section .products_starter .corn_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.corn_section .products_starter .corn_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.corn_section .products_starter .corn_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.corn_section .products_starter .corn_content .corn_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.corn_section .products_starter .corn_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.corn_section .products_starter .corn_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.corn_section .products_starter .corn_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.corn_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.corn_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.corn_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.corn_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.corn_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.corn_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.corn_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.corn_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.corn_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*malai kebab*/
+																
+.malai_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.malai_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.malai_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.malai_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.malai_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.malai_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.malai_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.malai_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.malai_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.malai_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.malai_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.malai_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.malai_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.malai_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.malai_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.malai_section .products_starter .malai_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.malai_section .products_starter .malai_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.malai_section .products_starter .malai_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.malai_section .products_starter .malai_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.malai_section .products_starter .malai_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.malai_section .products_starter .malai_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.malai_section .products_starter .malai_content .malai_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.malai_section .products_starter .malai_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.malai_section .products_starter .malai_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.malai_section .products_starter .malai_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.malai_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.malai_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.malai_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.malai_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.malai_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.malai_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.malai_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.malai_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.malai_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+															/*potato rings tomato kechup*/ 
+															
+
+.tomato_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.tomato_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.tomato_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.tomato_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.tomato_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.tomato_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.tomato_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.tomato_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.tomato_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.tomato_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.tomato_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.tomato_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.tomato_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.tomato_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.tomato_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.tomato_section .products_starter .tomato_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.tomato_section .products_starter .tomato_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.tomato_section .products_starter .tomato_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.tomato_section .products_starter .tomato_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.tomato_section .products_starter .tomato_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.tomato_section .products_starter .tomato_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.tomato_section .products_starter .tomato_content .tomato_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.tomato_section .products_starter .tomato_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.tomato_section .products_starter .tomato_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.tomato_section .products_starter .tomato_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.tomato_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.tomato_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.tomato_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.tomato_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.tomato_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.tomato_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.tomato_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.tomato_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.tomato_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}															
+
+														/*potato chips with tomato kechup*/
+														
+
+
+.potato_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.potato_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.potato_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.potato_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.potato_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.potato_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.potato_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.potato_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.potato_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.potato_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.potato_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.potato_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.potato_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.potato_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.potato_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.potato_section .products_starter .potato_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.potato_section .products_starter .potato_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.potato_section .products_starter .potato_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.potato_section .products_starter .potato_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.potato_section .products_starter .potato_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.potato_section .products_starter .potato_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.potato_section .products_starter .potato_content .potato_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.potato_section .products_starter .potato_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.potato_section .products_starter .potato_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.potato_section .products_starter .potato_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.potato_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.potato_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.potato_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.potato_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.potato_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.potato_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.potato_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.potato_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.potato_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}																
+
+																/*cong you bing*/
+																
+
+.cong_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.cong_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.cong_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.cong_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cong_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.cong_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.cong_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.cong_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.cong_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.cong_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.cong_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.cong_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.cong_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.cong_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.cong_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.cong_section .products_starter .cong_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.cong_section .products_starter .cong_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.cong_section .products_starter .cong_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.cong_section .products_starter .cong_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.cong_section .products_starter .cong_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.cong_section .products_starter .cong_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.cong_section .products_starter .cong_content .cong_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.cong_section .products_starter .cong_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.cong_section .products_starter .cong_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.cong_section .products_starter .cong_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.cong_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.cong_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.cong_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.cong_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.cong_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.cong_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.cong_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.cong_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.cong_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}			
+
+															/*chilli chinese chicken*/
+															
+															
+.chilli_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.chilli_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.chilli_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.chilli_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.chilli_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.chilli_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.chilli_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.chilli_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.chilli_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.chilli_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.chilli_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.chilli_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.chilli_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.chilli_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.chilli_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.chilli_section .products_starter .chilli_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.chilli_section .products_starter .chilli_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.chilli_section .products_starter .chilli_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.chilli_section .products_starter .chilli_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.chilli_section .products_starter .chilli_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.chilli_section .products_starter .chilli_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.chilli_section .products_starter .chilli_content .chilli_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.chilli_section .products_starter .chilli_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.chilli_section .products_starter .chilli_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.chilli_section .products_starter .chilli_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.chilli_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.chilli_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.chilli_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.chilli_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.chilli_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.chilli_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.chilli_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.chilli_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.chilli_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*chinese chicken*/
+																
+
+.china_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.china_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.china_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.china_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.china_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.china_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.china_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.china_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.china_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.china_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.china_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.china_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.china_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.china_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.china_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.china_section .products_starter .china_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.china_section .products_starter .china_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.china_section .products_starter .china_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.china_section .products_starter .china_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.china_section .products_starter .china_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.china_section .products_starter .china_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.china_section .products_starter .china_content .china_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.china_section .products_starter .china_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.china_section .products_starter .china_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.china_section .products_starter .china_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.china_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.china_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.china_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.china_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.china_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.china_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.china_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.china_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.china_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+															/*sweet and sour chinese*/
+															
+.sour_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.sour_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.sour_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.sour_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sour_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.sour_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.sour_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.sour_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.sour_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.sour_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.sour_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.sour_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.sour_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.sour_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.sour_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.sour_section .products_starter .sour_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.sour_section .products_starter .sour_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.sour_section .products_starter .sour_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.sour_section .products_starter .sour_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.sour_section .products_starter .sour_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.sour_section .products_starter .sour_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.sour_section .products_starter .sour_content .sour_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.sour_section .products_starter .sour_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.sour_section .products_starter .sour_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.sour_section .products_starter .sour_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.sour_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.sour_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.sour_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.sour_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.sour_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.sour_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.sour_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.sour_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.sour_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*chinese soft noodles*/
+																
+
+.soft_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.soft_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.soft_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.soft_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.soft_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.soft_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.soft_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.soft_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.soft_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.soft_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.soft_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.soft_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.soft_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.soft_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.soft_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.soft_section .products_starter .soft_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.soft_section .products_starter .soft_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.soft_section .products_starter .soft_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.soft_section .products_starter .soft_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.soft_section .products_starter .soft_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.soft_section .products_starter .soft_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.soft_section .products_starter .soft_content .soft_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.soft_section .products_starter .soft_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.soft_section .products_starter .soft_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.soft_section .products_starter .soft_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.soft_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.soft_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.soft_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.soft_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.soft_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.soft_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.soft_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.soft_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.soft_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																	/*thamiam soup*/
+																	
+
+.thamiam_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.thamiam_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.thamiam_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.thamiam_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.thamiam_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.thamiam_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thamiam_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.thamiam_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.thamiam_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thamiam_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.thamiam_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.thamiam_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thamiam_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.thamiam_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.thamiam_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.thamiam_section .products_starter .thamiam_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.thamiam_section .products_starter .thamiam_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thamiam_section .products_starter .thamiam_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.thamiam_section .products_starter .thamiam_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.thamiam_section .products_starter .thamiam_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.thamiam_section .products_starter .thamiam_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.thamiam_section .products_starter .thamiam_content .thamiam_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.thamiam_section .products_starter .thamiam_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.thamiam_section .products_starter .thamiam_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.thamiam_section .products_starter .thamiam_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.thamiam_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.thamiam_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.thamiam_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.thamiam_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.thamiam_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.thamiam_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.thamiam_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.thamiam_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.thamiam_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																	/*jiaozi*/
+																	
+.jiaozi_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.jiaozi_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.jiaozi_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 30px;
+    background: #960;
+}
+
+.jiaozi_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.jiaozi_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.jiaozi_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.jiaozi_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.jiaozi_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.jiaozi_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.jiaozi_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.jiaozi_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.jiaozi_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.jiaozi_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.jiaozi_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.jiaozi_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.jiaozi_section .products_starter .jiaozi_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.jiaozi_section .products_starter .jiaozi_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.jiaozi_section .products_starter .jiaozi_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.jiaozi_section .products_starter .jiaozi_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.jiaozi_section .products_starter .jiaozi_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.jiaozi_section .products_starter .jiaozi_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.jiaozi_section .products_starter .jiaozi_content .jiaozi_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.jiaozi_section .products_starter .jiaozi_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.jiaozi_section .products_starter .jiaozi_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.jiaozi_section .products_starter .jiaozi_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.jiaozi_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.jiaozi_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.jiaozi_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.jiaozi_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.jiaozi_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.jiaozi_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.jiaozi_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.jiaozi_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.jiaozi_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+
+																		/*edamame*/
+																		
+																		
+.edamame_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.edamame_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.edamame_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.edamame_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.edamame_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.edamame_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.edamame_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.edamame_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.edamame_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.edamame_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.edamame_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.edamame_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.edamame_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.edamame_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.edamame_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.edamame_section .products_starter .edamame_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.edamame_section .products_starter .edamame_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.edamame_section .products_starter .edamame_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.edamame_section .products_starter .edamame_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.edamame_section .products_starter .edamame_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.edamame_section .products_starter .edamame_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.edamame_section .products_starter .edamame_content .edamame_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.edamame_section .products_starter .edamame_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.edamame_section .products_starter .edamame_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.edamame_section .products_starter .edamame_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.edamame_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.edamame_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.edamame_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.edamame_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.edamame_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.edamame_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.edamame_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.edamame_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.edamame_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																		/*yakitori*/
+																		
+
+.yakitori_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.yakitori_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.yakitori_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.yakitori_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.yakitori_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.yakitori_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.yakitori_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.yakitori_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.yakitori_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.yakitori_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.yakitori_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.yakitori_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.yakitori_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.yakitori_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.yakitori_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.yakitori_section .products_starter .yakitori_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.yakitori_section .products_starter .yakitori_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.yakitori_section .products_starter .yakitori_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.yakitori_section .products_starter .yakitori_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.yakitori_section .products_starter .yakitori_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.yakitori_section .products_starter .yakitori_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.yakitori_section .products_starter .yakitori_content .yakitori_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.yakitori_section .products_starter .yakitori_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.yakitori_section .products_starter .yakitori_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.yakitori_section .products_starter .yakitori_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.yakitori_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.yakitori_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.yakitori_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.yakitori_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.yakitori_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.yakitori_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.yakitori_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.yakitori_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.yakitori_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*spring roll*/
+																
+
+.spring_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.spring_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.spring_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.spring_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.spring_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.spring_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.spring_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.spring_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.spring_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.spring_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.spring_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.spring_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.spring_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.spring_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.spring_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.spring_section .products_starter .spring_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.spring_section .products_starter .spring_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.spring_section .products_starter .spring_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.spring_section .products_starter .spring_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.spring_section .products_starter .spring_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.spring_section .products_starter .spring_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.spring_section .products_starter .spring_content .spring_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.spring_section .products_starter .spring_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.spring_section .products_starter .spring_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.spring_section .products_starter .spring_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.spring_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.spring_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.spring_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.spring_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.spring_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.spring_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.spring_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.spring_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.spring_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																	/*shumai*/
+																	
+
+.shumai_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.shumai_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.shumai_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.shumai_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.shumai_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.shumai_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.shumai_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.shumai_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.shumai_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.shumai_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.shumai_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.shumai_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.shumai_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.shumai_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.shumai_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.shumai_section .products_starter .shumai_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.shumai_section .products_starter .shumai_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.shumai_section .products_starter .shumai_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.shumai_section .products_starter .shumai_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.shumai_section .products_starter .shumai_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.shumai_section .products_starter .shumai_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.shumai_section .products_starter .shumai_content .shumai_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.shumai_section .products_starter .shumai_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.shumai_section .products_starter .shumai_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.shumai_section .products_starter .shumai_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.shumai_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.shumai_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.shumai_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.shumai_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.shumai_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.shumai_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.shumai_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.shumai_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.shumai_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																		/*wing*/
+																		
+																	
+.wing_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.wing_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.wing_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.wing_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wing_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.wing_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.wing_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.wing_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.wing_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.wing_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.wing_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.wing_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.wing_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.wing_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.wing_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.wing_section .products_starter .wing_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.wing_section .products_starter .wing_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.wing_section .products_starter .wing_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.wing_section .products_starter .wing_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.wing_section .products_starter .wing_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.wing_section .products_starter .wing_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.wing_section .products_starter .wing_content .wing_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.wing_section .products_starter .wing_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.wing_section .products_starter .wing_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.wing_section .products_starter .wing_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.wing_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.wing_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.wing_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.wing_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.wing_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.wing_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.wing_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.wing_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.wing_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+
+														/*coriander chilli chicken meatballs*/
+														
+.coriander_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.coriander_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.coriander_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.coriander_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.coriander_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.coriander_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.coriander_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.coriander_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.coriander_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.coriander_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.coriander_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.coriander_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.coriander_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.coriander_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.coriander_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.coriander_section .products_starter .coriander_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.coriander_section .products_starter .coriander_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.coriander_section .products_starter .coriander_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.coriander_section .products_starter .coriander_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.coriander_section .products_starter .coriander_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.coriander_section .products_starter .coriander_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.coriander_section .products_starter .coriander_content .coriander_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.coriander_section .products_starter .coriander_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.coriander_section .products_starter .coriander_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.coriander_section .products_starter .coriander_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.coriander_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.coriander_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.coriander_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.coriander_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.coriander_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.coriander_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.coriander_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.coriander_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.coriander_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+															/*peanut chicken satay*/
+															
+
+.peanut_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.peanut_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.peanut_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.peanut_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.peanut_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.peanut_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.peanut_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.peanut_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.peanut_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.peanut_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.peanut_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.peanut_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.peanut_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.peanut_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.peanut_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.peanut_section .products_starter .peanut_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.peanut_section .products_starter .peanut_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.peanut_section .products_starter .peanut_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.peanut_section .products_starter .peanut_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.peanut_section .products_starter .peanut_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.peanut_section .products_starter .peanut_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.peanut_section .products_starter .peanut_content .peanut_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.peanut_section .products_starter .peanut_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.peanut_section .products_starter .peanut_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.peanut_section .products_starter .peanut_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.peanut_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.peanut_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.peanut_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.peanut_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.peanut_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.peanut_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.peanut_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.peanut_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.peanut_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*thaigarlic prawns*/
+																
+																
+.thaigarlic_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.thaigarlic_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.thaigarlic_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.thaigarlic_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.thaigarlic_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.thaigarlic_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaigarlic_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.thaigarlic_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.thaigarlic_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaigarlic_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.thaigarlic_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.thaigarlic_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaigarlic_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.thaigarlic_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.thaigarlic_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.thaigarlic_section .products_starter .thaigarlic_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.thaigarlic_section .products_starter .thaigarlic_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaigarlic_section .products_starter .thaigarlic_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.thaigarlic_section .products_starter .thaigarlic_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.thaigarlic_section .products_starter .thaigarlic_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.thaigarlic_section .products_starter .thaigarlic_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.thaigarlic_section .products_starter .thaigarlic_content .thaigarlic_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.thaigarlic_section .products_starter .thaigarlic_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.thaigarlic_section .products_starter .thaigarlic_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.thaigarlic_section .products_starter .thaigarlic_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.thaigarlic_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.thaigarlic_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.thaigarlic_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.thaigarlic_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.thaigarlic_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.thaigarlic_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.thaigarlic_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.thaigarlic_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.thaigarlic_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*thai green curry mussels*/
+																
+
+.thaigreen_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.thaigreen_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.thaigreen_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.thaigreen_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.thaigreen_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.thaigreen_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaigreen_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.thaigreen_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.thaigreen_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaigreen_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.thaigreen_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.thaigreen_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaigreen_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.thaigreen_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.thaigreen_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.thaigreen_section .products_starter .thaigreen_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.thaigreen_section .products_starter .thaigreen_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaigreen_section .products_starter .thaigreen_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.thaigreen_section .products_starter .thaigreen_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.thaigreen_section .products_starter .thaigreen_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.thaigreen_section .products_starter .thaigreen_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.thaigreen_section .products_starter .thaigreen_content .thaigreen_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.thaigreen_section .products_starter .thaigreen_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.thaigreen_section .products_starter .thaigreen_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.thaigreen_section .products_starter .thaigreen_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.thaigreen_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.thaigreen_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.thaigreen_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.thaigreen_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.thaigreen_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.thaigreen_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.thaigreen_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.thaigreen_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.thaigreen_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																		/*thaimuse*/
+																		
+.thaimuse_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.thaimuse_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.thaimuse_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.thaimuse_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.thaimuse_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.thaimuse_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaimuse_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.thaimuse_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.thaimuse_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaimuse_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.thaimuse_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.thaimuse_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaimuse_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.thaimuse_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.thaimuse_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.thaimuse_section .products_starter .thaimuse_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.thaimuse_section .products_starter .thaimuse_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaimuse_section .products_starter .thaimuse_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.thaimuse_section .products_starter .thaimuse_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.thaimuse_section .products_starter .thaimuse_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.thaimuse_section .products_starter .thaimuse_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.thaimuse_section .products_starter .thaimuse_content .thaimuse_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.thaimuse_section .products_starter .thaimuse_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.thaimuse_section .products_starter .thaimuse_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.thaimuse_section .products_starter .thaimuse_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.thaimuse_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.thaimuse_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.thaimuse_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.thaimuse_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.thaimuse_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.thaimuse_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.thaimuse_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.thaimuse_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.thaimuse_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																		/*thaicake*/
+																		
+.thaicake_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.thaicake_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.thaicake_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.thaicake_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.thaicake_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.thaicake_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaicake_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.thaicake_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.thaicake_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaicake_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.thaicake_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.thaicake_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.thaicake_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.thaicake_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.thaicake_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.thaicake_section .products_starter .thaicake_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.thaicake_section .products_starter .thaicake_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.thaicake_section .products_starter .thaicake_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.thaicake_section .products_starter .thaicake_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.thaicake_section .products_starter .thaicake_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.thaicake_section .products_starter .thaicake_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.thaicake_section .products_starter .thaicake_content .thaicake_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.thaicake_section .products_starter .thaicake_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.thaicake_section .products_starter .thaicake_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.thaicake_section .products_starter .thaicake_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.thaicake_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.thaicake_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.thaicake_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.thaicake_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.thaicake_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.thaicake_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.thaicake_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.thaicake_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.thaicake_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																	/*cranberry*/
+																	
+																	
+.cranberry_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.cranberry_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.cranberry_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.cranberry_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cranberry_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.cranberry_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.cranberry_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.cranberry_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.cranberry_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.cranberry_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.cranberry_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.cranberry_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.cranberry_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.cranberry_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.cranberry_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.cranberry_section .products_starter .cranberry_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.cranberry_section .products_starter .cranberry_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.cranberry_section .products_starter .cranberry_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.cranberry_section .products_starter .cranberry_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.cranberry_section .products_starter .cranberry_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.cranberry_section .products_starter .cranberry_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.cranberry_section .products_starter .cranberry_content .cranberry_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.cranberry_section .products_starter .cranberry_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.cranberry_section .products_starter .cranberry_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.cranberry_section .products_starter .cranberry_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.cranberry_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.cranberry_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.cranberry_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.cranberry_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.cranberry_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.cranberry_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.cranberry_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.cranberry_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.cranberry_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																	/*nutcheese*/
+																	
+.nutcheese_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.nutcheese_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.nutcheese_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.nutcheese_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.nutcheese_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.nutcheese_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.nutcheese_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.nutcheese_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.nutcheese_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.nutcheese_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.nutcheese_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.nutcheese_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.nutcheese_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.nutcheese_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.nutcheese_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.nutcheese_section .products_starter .nutcheese_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.nutcheese_section .products_starter .nutcheese_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.nutcheese_section .products_starter .nutcheese_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.nutcheese_section .products_starter .nutcheese_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.nutcheese_section .products_starter .nutcheese_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.nutcheese_section .products_starter .nutcheese_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.nutcheese_section .products_starter .nutcheese_content .nutcheese_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.nutcheese_section .products_starter .nutcheese_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.nutcheese_section .products_starter .nutcheese_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.nutcheese_section .products_starter .nutcheese_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.nutcheese_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.nutcheese_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.nutcheese_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.nutcheese_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.nutcheese_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.nutcheese_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.nutcheese_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.nutcheese_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.nutcheese_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																	/*rind*/
+																	
+.rind_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.rind_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.rind_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.rind_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.rind_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.rind_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.rind_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.rind_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.rind_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.rind_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.rind_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.rind_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.rind_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.rind_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.rind_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.rind_section .products_starter .rind_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.rind_section .products_starter .rind_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.rind_section .products_starter .rind_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.rind_section .products_starter .rind_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.rind_section .products_starter .rind_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.rind_section .products_starter .rind_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.rind_section .products_starter .rind_content .rind_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.rind_section .products_starter .rind_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.rind_section .products_starter .rind_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.rind_section .products_starter .rind_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.rind_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.rind_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.rind_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.rind_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.rind_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.rind_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.rind_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.rind_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.rind_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*strawberry*/
+																
+.berry_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.berry_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.berry_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.berry_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.berry_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.berry_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.berry_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.berry_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.berry_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.berry_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.berry_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.berry_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.berry_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.berry_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.berry_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.berry_section .products_starter .berry_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.berry_section .products_starter .berry_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.berry_section .products_starter .berry_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.berry_section .products_starter .berry_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.berry_section .products_starter .berry_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.berry_section .products_starter .berry_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.berry_section .products_starter .berry_content .berry_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.berry_section .products_starter .berry_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.berry_section .products_starter .berry_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.berry_section .products_starter .berry_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.berry_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.berry_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.berry_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.berry_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.berry_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.berry_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.berry_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.berry_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.berry_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																	/*nachos*/
+																	
+																	
+.nachos_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.nachos_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.nachos_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.nachos_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.nachos_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.nachos_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.nachos_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.nachos_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.nachos_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.nachos_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.nachos_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.nachos_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.nachos_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.nachos_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.nachos_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.nachos_section .products_starter .nachos_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.nachos_section .products_starter .nachos_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.nachos_section .products_starter .nachos_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.nachos_section .products_starter .nachos_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.nachos_section .products_starter .nachos_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.nachos_section .products_starter .nachos_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.nachos_section .products_starter .nachos_content .nachos_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.nachos_section .products_starter .nachos_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.nachos_section .products_starter .nachos_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.nachos_section .products_starter .nachos_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.nachos_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.nachos_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.nachos_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.nachos_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.nachos_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.nachos_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.nachos_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.nachos_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.nachos_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
+
+																/*mozzarella*/
+																
+																
+.mozza_section {
+    float: left;
+    width: 100%;
+    background: #ebebeb;
+    padding-bottom: 50px;
+}
+
+.mozza_section .star_head {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.mozza_section .side_starter {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #960;
+}
+
+.mozza_section .side_starter .heading {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #F00;
+    background: #0FC;
+    width: 90%;
+    border-radius: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.mozza_section .side_starter .sta_list {
+    clear: both;
+    width: 90%;
+     padding-bottom: 60px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.mozza_section .side_starter .sta_list li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.mozza_section .side_starter .sta_list li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: brown;
+	font-size:12px;
+    padding: 5px;
+    background: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.mozza_section .side_starter .sta_list li a:hover 
+{
+ clear:both;
+ display:block;
+ color:#FFF;
+ overflow:hidden;
+ background:#603;
+}
+
+.mozza_section .side_starter .side_other
+{
+width:90%;
+background:#C09;	
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.mozza_section .side_starter .other_menu {
+    width: 90%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto 16px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    background:red;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.mozza_section .side_starter .side_other
+{
+width:90%;
+margin:0px auto;	
+clear:both;
+display:block;
+overflow:hidden;
+text-align:center;
+background:none;	
+}
+
+.mozza_section .side_starter .side_other li
+{
+clear:both;
+display:block;
+overflow:hidden;
+list-style:none;	
+}
+
+.mozza_section .side_starter .side_other li a {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: pink;
+}
+
+.mozza_section .side_starter .side_other li a:hover {
+    clear: both;
+    display: block;
+    overflow: hidden;
+	color:#FFF;
+	background:#369;
+}
+
+
+.mozza_section .products_starter {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #00F;
+    padding-bottom:33px;
+}
+
+
+.mozza_section .products_starter .mozza_main {
+    float: left;
+    width: 40%;
+    /*background: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 65px;
+    padding-bottom: 25px;
+}
+.mozza_section .products_starter .mozza_one
+{
+clear:both;
+display:block;
+overflow:hidden;	
+}
+
+.mozza_section .products_starter .mozza_two {
+    float: left;
+    margin-right: 15px;
+    margin-left: 36px;
+	margin-top: 25px;
+}
+
+.mozza_section .products_starter .mozza_three
+{
+float:left;
+margin-right:15px;
+margin-top: 25px;	
+}
+
+.mozza_section .products_starter .mozza_four
+{
+float:left;
+margin-top: 25px;	
+}
+
+.mozza_section .products_starter .mozza_content {
+    float: left;
+	width:30%;
+    /*background: #FF0;*/
+    margin-left: 20px;
+    /*margin-top: 19px;*/
+	margin-top: 65px;
+	
+}
+
+.mozza_section .products_starter .mozza_content .mozza_name {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+}
+
+.mozza_section .products_starter .mozza_content .price {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+	text-align:center;
+	/*background:#C0F;*/
+}
+
+.mozza_section .products_starter .mozza_content .price span {
+    font-weight:bold;
+    font-size:12px;
+    color:red;
+    margin-left:20px;
+    text-decoration:line-through;
+    /*background:#C0F;*/
+}
+
+.mozza_section .products_starter .mozza_content .cart {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    color: #FFF;
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    background: aquamarine;
+    font-weight: 500;
+}
+
+.mozza_section .products_starter .typevendor {
+    width: 55%;
+    margin-left: 20px;
+    float: left;
+    border-top: solid 1px #fff;
+    /*background: #F66;*/
+	margin-top: 15px;
+}
+
+.mozza_section .products_starter .typevendor p {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #fff;
+}
+
+.mozza_section .products_starter .typevendor p span
+{
+clear:both;
+display:block;
+overflow:hidden;
+text-align:left;	
+}
+
+.mozza_section .products_starter .typevendor .discription
+{
+clear:both;
+display:block;
+overflow:hidden;
+color:#FFF;
+font-weight:500;	
+}
+
+.mozza_section .products_starter .typevendor .discription span {
+    clear: both;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 98%;
+    /*background: aliceblue;*/
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.mozza_section .products_starter .nextpage {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+
+
+.mozza_section .products_starter .nextpage a
+{
+float:right;
+color:#000;
+text-decoration:none;	
+}
+
+.mozza_section .products_starter .nextpage a .nextarrow {
+    float: right;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.mozza_section .products_starter .nextpage a:hover
+{
+float:right;
+color:#fff;	
+}
